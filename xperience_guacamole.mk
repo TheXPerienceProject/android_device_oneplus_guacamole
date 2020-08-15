@@ -15,7 +15,7 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 $(call inherit-product, vendor/xperience/config/common_full_phone.mk)
 
 #CAF prop CAF includes
-include device/qcom/common/common.mk
+-include device/qcom/common/common.mk
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xperience_guacamole
